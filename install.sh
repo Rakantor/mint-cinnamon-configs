@@ -43,7 +43,7 @@ echo "Installing logiops (https://github.com/PixlOne/logiops)..."
 echo "------------------------------------------------------------------"
 
 echo "Installing logiops dependencies..."
-sudo apt install cmake libevdev-dev libudev-dev libconfig++-dev
+sudo apt -y install cmake libevdev-dev libudev-dev libconfig++-dev
 
 echo "Fetching logiops build files..."
 git clone https://github.com/PixlOne/logiops.git
