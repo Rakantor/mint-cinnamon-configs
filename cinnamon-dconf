@@ -1,0 +1,128 @@
+[/]
+alttab-switcher-delay=100
+app-menu-label=''
+command-history=['r']
+desklet-snap-interval=25
+desktop-effects-close-effect='traditional'
+desktop-effects-close-time=120
+desktop-effects-close-transition='easeOutQuad'
+desktop-effects-map-effect='traditional'
+desktop-effects-map-time=100
+desktop-effects-map-transition='easeOutQuad'
+desktop-effects-maximize-effect='none'
+desktop-effects-maximize-time=100
+desktop-effects-maximize-transition='easeInExpo'
+desktop-effects-minimize-effect='traditional'
+desktop-effects-minimize-time=160
+desktop-effects-minimize-transition='easeInQuad'
+desktop-effects-tile-effect='none'
+desktop-effects-tile-time=100
+desktop-effects-tile-transition='easeInQuad'
+desktop-effects-unmaximize-effect='none'
+desktop-effects-unmaximize-time=100
+desktop-effects-unmaximize-transition='easeNone'
+enabled-applets=['panel1:left:0:menu@cinnamon.org:26', 'panel1:center:0:grouped-window-list@cinnamon.org:28', 'panel1:right:6:notifications@cinnamon.org:31', 'panel1:right:2:removable-drives@cinnamon.org:33', 'panel1:right:5:network@cinnamon.org:35', 'panel1:right:3:sound@cinnamon.org:36', 'panel1:right:7:calendar@cinnamon.org:38', 'panel1:right:4:vpnLookOut@claudiux:42', 'panel1:right:1:xapp-status@cinnamon.org:49', 'panel1:right:0:systray@cinnamon.org:51', 'panel1:left:1:temperature@fevimu:54']
+enabled-desklets=@as []
+extension-cache-updated=1597505071
+hotcorner-layout=['expo:false:0', 'scale:false:0', 'cinnamon-screensaver-command --lock:true:0', 'desktop:false:0']
+next-applet-id=55
+no-adjacent-panel-barriers=false
+panel-edit-mode=false
+panel-zone-icon-sizes='[{"panelId": 1, "left": 32, "center": 32, "right": 24}]'
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 32, "center": 32, "right": 16}]'
+panels-enabled=['1:0:bottom']
+panels-height=['1:48']
+
+[cinnamon-session]
+quit-time-delay=60
+
+[control-center/display]
+show-fractional-scaling-controls=true
+
+[desktop/applications/calculator]
+exec='gnome-calculator'
+
+[desktop/applications/terminal]
+exec='gnome-terminal'
+
+[desktop/background]
+picture-options='zoom'
+picture-uri='file:///home/pro/Pictures/modern-city-at-dusk-wallpaper.jpg'
+primary-color='#000000000000'
+
+[desktop/background/slideshow]
+delay=15
+image-source='xml:///usr/share/cinnamon-background-properties/linuxmint-una.xml'
+
+[desktop/interface]
+cursor-blink-time=1200
+cursor-size=24
+cursor-theme='Adwaita'
+font-name='Roboto 10'
+gtk-theme='Orchis-Dark'
+icon-theme='Papirus'
+scaling-factor=uint32 2
+text-scaling-factor=1.0
+toolkit-accessibility=false
+
+[desktop/keybindings/wm]
+maximize=['<Primary><Shift><Alt>Up']
+minimize=['<Primary><Shift><Alt>Down']
+
+[desktop/media-handling]
+autorun-never=false
+autorun-x-content-ignore=@as []
+autorun-x-content-open-folder=@as []
+autorun-x-content-start-app=['x-content/unix-software']
+
+[desktop/screensaver]
+lock-enabled=true
+
+[desktop/session]
+idle-delay=uint32 3600
+
+[desktop/sound]
+event-sounds=false
+
+[desktop/wm/preferences]
+button-layout=':minimize,maximize,close'
+min-window-opacity=30
+num-workspaces=3
+theme='Orchis-Dark'
+workspace-names=@as []
+
+[launcher]
+check-frequency=300
+memory-limit=2048
+
+[muffin]
+edge-resistance-window=true
+resize-threshold=24
+tile-hud-threshold=25
+workspace-cycle=true
+workspaces-only-on-primary=true
+
+[settings-daemon/peripherals/keyboard]
+delay=uint32 500
+numlock-state='off'
+repeat-interval=uint32 30
+
+[settings-daemon/peripherals/mouse]
+double-click=400
+drag-threshold=8
+motion-threshold=1
+natural-scroll=true
+
+[settings-daemon/peripherals/touchpad]
+motion-threshold=1
+
+[settings-daemon/peripherals/touchscreen]
+orientation-lock=true
+
+[settings-daemon/plugins/xsettings]
+buttons-have-icons=false
+menus-have-icons=true
+
+[theme]
+name='Orchis-Dark'
+theme-cache-updated=1597502407
