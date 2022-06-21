@@ -1,5 +1,31 @@
 # mint-cinnamon-configs
-TBD
+Installs predefined user configurations, themes, applications and application configurations to a fresh install of Linux Mint 20.3 Cinnamon Edition.
+
+### Themes
+- [Orchis](https://github.com/vinceliuice/Orchis-theme)
+- [WhiteSur](https://github.com/vinceliuice/WhiteSur-gtk-theme)
+- [Papirus Icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+
+### Applications
+- Android Studio
+- Atom (editor)
+- BlueMail
+- Chrome (browser)
+- Cryptomator
+- Filezilla
+- Gimp
+- IntelliJ IDEA Community
+- [Logiops](https://github.com/PixlOne/logiops)
+- Lutris
+- MEGA Sync
+- Node.js
+- NordVPN
+- Putty
+- qBittorrent
+- Spotify
+- Steam
+- VLC media player
+- VS Code
 
 ## Prerequisites
 1. [Install Linux Mint 20.3 Cinnamon Edition](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
@@ -17,4 +43,11 @@ Run the following command in a terminal and follow the instructions on screen:
 ```
 
 ## Installation
-TBD
+1. Run the following command in a terminal and follow the instructions on screen:
+```sh
+./install.sh
+```
+2. Run `Android Studio` and `IDEA` to create Desktop entries (Welcome screen > ⚙️ > Create Desktop Entry...)
+
+## Post-Installation
+Configure `nordvpn`, `megasync` and `bluemail`.
