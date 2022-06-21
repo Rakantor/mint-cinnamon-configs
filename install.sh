@@ -51,6 +51,7 @@ cp -rf ./Pictures ~/Pictures
 
 echo "Copying putty sessions..."
 rm -rf ~/.putty/sessions
+mkdir -p ~/.putty
 cp -rf ./.putty/sessions ~/.putty/sessions
 
 echo "------------------------------------------------------------------"
