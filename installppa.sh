@@ -12,8 +12,8 @@ sudo apt -y install ./BlueMail.deb
 
 # Chrome
 chrome=google-chrome-stable_current_amd64.deb
-wget https://dl.google.com/linux/direct/'$chrome'
-sudo apt -y install ./'$chrome'
+wget https://dl.google.com/linux/direct/"$chrome"
+sudo apt -y install ./"$chrome"
 
 # Cryptomator
 sudo apt-add-repository ppa:sebastian-stenzel/cryptomator -y
@@ -23,9 +23,9 @@ sudo apt-add-repository ppa:graphics-drivers/ppa -y
 
 # IntelliJ IDEA Community
 idea=ideaIC-2022.1.2.tar.gz
-wget https://download.jetbrains.com/idea/'$idea'
+wget https://download.jetbrains.com/idea/"$idea"
 sudo mkdir /opt/idea
-sudo tar -xzf ./'$idea' -C /opt/idea --strip-components=1
+sudo tar -xzf ./"$idea" -C /opt/idea --strip-components=1
 ./opt/idea/bin/idea.sh
 
 # Lutris
@@ -33,13 +33,13 @@ sudo apt-add-repository ppa:lutris-team/lutris -y
 
 # MEGA Sync
 mega=megasync-xUbuntu_20.04_amd64.deb
-wget https://mega.nz/linux/repo/xUbuntu_20.04/amd64/'$mega'
-sudo apt -y install ./'$mega'
+wget https://mega.nz/linux/repo/xUbuntu_20.04/amd64/"$mega"
+sudo apt -y install ./"$mega"
 
 # NordVPN
 nordvpn=nordvpn-release_1.0.0_all.deb
-wget https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/'$nordvpn'
-sudo apt -y install ./'$nordvpn'
+wget https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/"$nordvpn"
+sudo apt -y install ./"$nordvpn"
 
 # Papirus icons
 sudo apt-add-repository ppa:papirus/papirus -y
@@ -60,4 +60,4 @@ sudo apt update
 sudo apt -y install android-studio atom google-chrome-stable nordvpn spotify-client steam code
 
 # Cleanup
-rm -f ./BlueMail.deb ./'$chrome' ./'$idea' ./'$mega' ./'$nordvpn' ./vscode.deb
+rm -f ./BlueMail.deb ./"$chrome" ./"$idea" ./"$mega" ./"$nordvpn" ./vscode.deb
