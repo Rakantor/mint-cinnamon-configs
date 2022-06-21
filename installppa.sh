@@ -55,5 +55,13 @@ sudo add-apt-repository 'deb http://repository.spotify.com stable non-free' -y
 wget -O vscode.deb https://update.code.visualstudio.com/latest/linux-deb-x64/stable
 sudo apt -y install ./vscode.deb
 
+# Wine
+sudo dpkg --add-architecture i386
+wget https://dl.winehq.org/wine-builds/winehq.key
+sudo mv winehq.key /usr/share/keyrings/winehq-archive.key
+
+wget https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources
+sudo mv winehq-focal.sources /etc/apt/sources.list.d/
+
 # Cleanup
 rm -f ./BlueMail.deb ./"$chrome" ./"$idea" ./"$mega" ./"$nordvpn" ./vscode.deb
