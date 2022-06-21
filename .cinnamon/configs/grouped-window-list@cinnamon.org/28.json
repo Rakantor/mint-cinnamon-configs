@@ -169,8 +169,8 @@
             "code.desktop",
             "jetbrains-idea-ce.desktop",
             "jetbrains-studio.desktop",
-            "spotify.desktop",
             "org.cryptomator.Cryptomator.desktop",
+            "spotify.desktop",
             "steam.desktop"
         ]
     },

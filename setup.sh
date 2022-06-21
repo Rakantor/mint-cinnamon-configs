@@ -41,6 +41,7 @@ rm -rf ./.local
 mkdir -p ./.local/share
 cp -rf ~/.local/share/cinnamon ./.local/share/cinnamon
 
+rm -f ./cinnamon-dconf
 dconf dump /org/cinnamon/ > ./cinnamon-dconf
 
 echo "Copying putty sessions..."
