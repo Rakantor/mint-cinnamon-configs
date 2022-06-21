@@ -1,5 +1,4 @@
 atom	install
-bluemail	install
 cmake	install
 code	install
 cryptomator	install
@@ -18,7 +17,6 @@ putty	install
 putty-tools	install
 qbittorrent	install
 spotify-client	install
-steam-launcher	install
 vlc	install
 vlc-bin	install
 vlc-plugin-base	install
