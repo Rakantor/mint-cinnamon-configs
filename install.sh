@@ -24,7 +24,11 @@ sudo rm -rf /usr/share/plymouth/themes/mint-logo
 sudo cp -rf ./usr/share/plymouth/themes/mint-logo /usr/share/plymouth/themes/mint-logo
 
 echo "Copying Firefox theme 'Orchis'..."
-dir=~/.mozilla/firefox/*.default-release/
+dir1=~/.mozilla/firefox/
+dir2=".default-release/"
+for f in "$dir1"*"$dir2"; do
+  dir="$f"
+done
 rm -rf "$dir"chrome
 rm -f "$dir"user.js
 cp -rf ./.mozilla/firefox/chrome "$dir"chrome

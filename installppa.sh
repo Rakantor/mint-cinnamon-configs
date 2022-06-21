@@ -58,6 +58,7 @@ sudo apt -y install ./vscode.deb
 # Install applications
 sudo apt update
 sudo apt -y install android-studio atom google-chrome-stable nordvpn spotify-client steam code
+sudo apt -y --fix-broken install
 
 # Cleanup
 rm -f ./BlueMail.deb ./"$chrome" ./"$idea" ./"$mega" ./"$nordvpn" ./vscode.deb
