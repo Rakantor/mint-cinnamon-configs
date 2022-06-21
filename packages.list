@@ -1,29 +1,31 @@
-atom	install
-cmake	install
-code	install
-cryptomator	install
-filezilla	install
-gimp	install
-google-chrome-stable	install
-lutris	install
-megasync	install
-nautilus	install
-nautilus-extension-gnome-terminal	install
-nodejs	install
-nordvpn	install
-npm	install
-papirus-icon-theme	install
-putty	install
-putty-tools	install
-qbittorrent	install
-spotify-client	install
-vlc	install
-vlc-bin	install
-vlc-plugin-base	install
-vlc-plugin-notify	install
-vlc-plugin-qt	install
-vlc-plugin-samba	install
-vlc-plugin-skins2	install
-vlc-plugin-video-output	install
-vlc-plugin-video-splitter	install
-vlc-plugin-visualization	install
+android-studio
+atom
+cmake
+code
+cryptomator
+filezilla
+gimp
+google-chrome-stable
+lutris
+megasync
+nautilus
+nautilus-extension-gnome-terminal
+nodejs
+nordvpn
+npm
+papirus-icon-theme
+putty
+putty-tools
+qbittorrent
+spotify-client
+steam
+vlc
+vlc-bin
+vlc-plugin-base
+vlc-plugin-notify
+vlc-plugin-qt
+vlc-plugin-samba
+vlc-plugin-skins2
+vlc-plugin-video-output
+vlc-plugin-video-splitter
+vlc-plugin-visualization

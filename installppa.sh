@@ -55,10 +55,5 @@ sudo add-apt-repository 'deb http://repository.spotify.com stable non-free' -y
 wget -O vscode.deb https://update.code.visualstudio.com/latest/linux-deb-x64/stable
 sudo apt -y install ./vscode.deb
 
-# Install applications
-sudo apt update
-sudo apt -y install android-studio atom google-chrome-stable nordvpn spotify-client steam code
-sudo apt -y --fix-broken install
-
 # Cleanup
 rm -f ./BlueMail.deb ./"$chrome" ./"$idea" ./"$mega" ./"$nordvpn" ./vscode.deb
