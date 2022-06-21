@@ -26,7 +26,7 @@ idea=ideaIC-2022.1.2.tar.gz
 wget https://download.jetbrains.com/idea/"$idea"
 sudo mkdir /opt/idea
 sudo tar -xzf ./"$idea" -C /opt/idea --strip-components=1
-./opt/idea/bin/idea.sh
+/opt/idea/bin/idea.sh
 
 # Lutris
 sudo apt-add-repository ppa:lutris-team/lutris -y
