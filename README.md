@@ -26,6 +26,7 @@ Installs predefined user configurations, themes, applications and application co
 - Steam
 - VLC media player
 - VS Code
+- Wine
 
 ## Prerequisites
 1. [Install Linux Mint 20.3 Cinnamon Edition](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
