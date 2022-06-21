@@ -44,6 +44,11 @@ cp -rf ~/.local/share/cinnamon ./.local/share/cinnamon
 rm -f ./cinnamon-dconf
 dconf dump /org/cinnamon/ > ./cinnamon-dconf
 
+echo "Copying preferred applications list..."
+rm -rf ./.config
+mkdir -p ./.config
+cp -f ~/.config/mimeapps.list ./.config/mimeapps.list
+
 echo "Copying putty sessions..."
 rm -rf ./.putty
 mkdir -p ./.putty

@@ -11,6 +11,17 @@ sudo apt update
 chmod +x ./installppa.sh
 ./installppa.sh
 
+echo "------------------------------------------------------------------"
+echo "Installing applications..."
+echo "------------------------------------------------------------------"
+filename='packages.list'
+while read line; do
+  apps=$apps" "$line
+done < $filename
+sudo apt update
+sudo apt -y install $apps
+sudo apt -y --fix-broken install
+
 echo "Copying grub bootloader conf..."
 sudo rm -f /etc/default/grub
 sudo cp -f ./etc/default/grub /etc/default/grub
@@ -70,13 +81,9 @@ echo "------------------------------------------------------------------"
 echo "Finished installing logiops!"
 echo "------------------------------------------------------------------"
 
-echo "------------------------------------------------------------------"
-echo "Installing applications..."
-echo "Software selection >"
-echo "Restore... >"
-echo "select 'packages.list' in project root directory"
-echo "------------------------------------------------------------------"
-mintbackup
+echo "Copying preferred applications list..."
+rm -f ~/.config/mimeapps.list
+cp -f ./.config/mimeapps.list ~/.config/mimeapps.list
 
 echo "Copying Cinnamon configs..."
 #rm -r ~/.config/dconf/user
